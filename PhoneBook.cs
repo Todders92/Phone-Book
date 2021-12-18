@@ -24,7 +24,7 @@ class PhoneBook
       }
       else
       {
-        Console.WriteLine("Are you finished with this program? ['Y' ofr yes, 'Enter' for no]");
+        Console.WriteLine("Are you finished with this program? ['Y' for yes, 'Enter' for no]");
         string finishedAnswer = Console.ReadLine();
         if (finishedAnswer == "Y" || finishedAnswer == "y")
         {
